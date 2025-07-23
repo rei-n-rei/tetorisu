@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eee;
+}
+
+.container {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(20, 30px);
+  gap: 1px;
+  background: #ccc;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: 1px solid #333;
+}
+
+.block {
+  width: 30px;
+  height: 30px;
+}
+
+.I { background-color: cyan; }
+.O { background-color: gold; }
+.T { background-color: purple; }
+.S { background-color: limegreen; }
+.Z { background-color: crimson; }
+.J { background-color: royalblue; }
+.L { background-color: orange; }
